@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./Ejercicio2b-CalcVisual.css">
+    <script src="./Ejercicio2b-CalcVisual.js"></script>
+    <title>Calculadora Visual</title>
+</head>
+<body>
+        <div class="calculadora">
+            <p>
+            <input type="button" class="largo" value="C" onclick="calculadoraVisual.limpiar()"/>
+            </p>
+            <p>
+                <input class="input" id="primerValor" placeholder="Escribe tu primer valor">
+                <input class="input" id="segundoValor" placeholder="Escribe tu segundo valor">
+            </p>
+            <p>
+                <input type="button" value="/" onclick="calculadoraVisuall.dividir()"  />
+                <input type="button" value="*" onclick="calculadoraVisual.multiplicar()" />
+                <input type="button" value="[^]" onclick="calculadoraVisual.potencia()" />
+            </p>
+            <p>
+                <input type="button" value="-" onclick="calculadoraVisual.restar()" />
+                <input type="button" value="+" onclick="calculadoraVisual.sumar()" />
+                <input type="button" value="=" onclick="calculadoraVisual.mostrararray()" />
+            </p>
+            <p>
+                <input class="input" id="resultado" type="text" disabled>
+            </p>
+    </div>    
+</body>
+</html>
