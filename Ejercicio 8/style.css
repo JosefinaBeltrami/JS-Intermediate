@@ -1,0 +1,15 @@
+.boton {
+    padding: 10px 30px;
+    border: 2px solid red;
+    border-radius: 5px;
+    background: #000;
+    color: #FFF;
+}
+
+.fila {
+    display: flex;
+}
+
+.fila__columna {
+    flex-grow: 1;
+}

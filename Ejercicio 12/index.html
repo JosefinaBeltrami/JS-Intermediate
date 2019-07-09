@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Spartan Box</title>
+</head>
+<body>
+
+<section class="navbar-padre">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"> 
+                <img class="navbar-brand__logo" src="./image/Spartan-logo.png"> 
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://www.spartanbox.es/blog/">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://www.spartanbox.es/lessons/">Clases</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="http://www.spartanbox.es/galeria-torneos/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Fotos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="http://www.spartanbox.es/galeria-torneos/spartan-games-2018-fotos/">Spartan Games 2018</a>
+                            <a class="dropdown-item" href="http://www.spartanbox.es/galeria-torneos/thorfive-2018/">Thor Five 2018</a>
+                            <a class="dropdown-item" href="#">Thor Five 2019</a>
+                            <a class="dropdown-item" href="#">Spartan Games 2019</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
+            </div>
+            </nav>
+
+</section>
+
+<section class="carousel-padre">
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="2000">
+                <img src="./image/DSC_2164.jpg" class="d-block w-100" alt="spartan box">
+            </div>
+            <div class="carousel-item" data-interval="2000">
+                <img src="./image/DSC_2277.jpg" class="d-block w-100" alt="spartan box">
+            </div>
+            <div class="carousel-item" data-interval="2000">
+                <img src="./image/DSC_2304.jpg" class="d-block w-100" alt="spartan box">
+            </div>
+            <div class="carousel-item" data-interval="2000">
+                <img src="./image/DSC_2365.jpg" class="d-block w-100" alt="spartan box">
+            </div>
+            <div class="carousel-item" data-interval="2000">
+                <img src="./image/DSC_2387.jpg" class="d-block w-100" alt="spartan box">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+</section>
+
+<article class="articles-text">
+    <div class="articles-text__row">
+            <h2>Spartan Box - Crosffit Manoteras</h2>
+            <p>La Ilusión de dos primos, dos amigos, dos hermanos, que por moldear nuestro cuerpo y reforzar nuestra mente decidimos hace tan solo un año embarcarnos en una aventura titanica: Inagurar un box...</p>
+        </div>
+</article>
+
+<article class="colapse-padre">
+    <div class="colapse-padre__row">
+        <p>
+            <a class="btn btn-primary" data-toggle="collapse" href="#QuienesSomos" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Quienes Somos
+            </a>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                ¿Que es Crosffit?
+            </button>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                Galeria de Fotos
+            </button>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                Blog
+            </button>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                Clases
+            </button>
+        </p>
+        <div class="collapse" id="QuienesSomos">
+            <div class="card card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            </div>
+        </div>
+    </div>
+</article>
+
+<article class="modal-padre">
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+       Deseas obtener mas información
+    </button>
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel"></h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              SPARTAN BOX! 
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+   
+
+</article>
+   
+</body>
+</html>
