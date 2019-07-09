@@ -1,0 +1,92 @@
+.container {
+  position: absolute;
+}
+
+.button-play {
+  right: 390px;
+  bottom: 15px;
+  position: relative;
+  opacity: 0.5;
+  color: rgb(236, 65, 65);
+}
+
+.button-play .fa-play-circle {
+  font-size: 30px;
+}
+
+.button-play:hover {
+  color: white;
+  opacity: 1;
+}
+
+.button-pause {
+  right: 390px;
+  bottom: 15px;
+  color: rgb(236, 65, 65);
+  position: relative;
+  opacity: 0.5;
+}
+
+.button-pause .fa-pause-circle {
+  font-size: 30px;
+}
+
+.button-pause:hover {
+  color: white;
+  opacity: 1;
+}
+
+.button-volume {
+  right: 350px;
+  bottom: 15px;
+  color:  rgb(236, 65, 65);
+  position: relative;
+  opacity: 0.5;
+}
+
+.button-volume .fa-volume-up {
+  font-size: 22px;
+}
+
+.button-volume:hover {
+  color: white;
+  opacity: 1;
+}
+
+.button-mute {
+  color: rgb(236, 65, 65);
+  right: 350px;
+  bottom: 15px;
+  opacity: 0.5;
+  position: relative;
+}
+
+.button-mute .fa-volume-mute {
+  font-size: 22px;
+}
+
+.button-mute:hover {
+  color: white;
+  opacity: 1;
+}
+
+.hide {
+  display: none;
+}
+
+.video-button {
+  width: 400px;
+  height: auto;
+}
+
+.video-button1 {
+  width: 400px;
+  height: auto;
+}
+
+.bar {
+  background-color: black;
+  bottom: 100px;
+  opacity: 0.5;
+  position: relative;
+}
